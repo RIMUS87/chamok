@@ -2,6 +2,14 @@
 <html>
     <head>
         <title>Page Title</title>
+        <style>
+            table,
+            td, th {
+                border: 1px solid black;
+                padding: 20px;
+                text-align:center;
+            }
+        </style>
     </head>
     <body>
         <p>
@@ -14,6 +22,42 @@
                 <li><a href="level2page.html" target="_blank">New Tab Link</a></li>
             </ul>
         </p>
-        <p><abbr title="Abbreviated Text">Abbr.</abbr></p>
+        <p>
+            <abbr title="Abbreviated Text">Abbr.</abbr>
+            <br>
+            <q>Quotation Marks</q>
+        </p>
+        <table>
+            <tr>
+                <th>basic</th>
+                <th>stage 1</th>
+                <th>stage 2</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>bulbasaur</td>
+                <td>ivysaur</td>
+                <td>venusaur</td>
+                <th>grass</th>
+            </tr>
+            <tr>
+                <td>charmander</td>
+                <td>charmeleon</td>
+                <td>charizard</td>
+                <th rowspan="0">fire</th>
+            </tr>
+            <tr>
+                <td>squirtle</td>
+                <td>wartortle</td>
+                <td>blastoise</td>
+                <!--<th rowspan="2">water</th>-->
+            </tr>
+            <tr>
+                <td colspan="3">pokemon</td>
+            </tr>
+        </table>
     </body>
 </html>
+<!--
+
+-->
