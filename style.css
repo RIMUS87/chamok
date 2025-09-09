@@ -1,6 +1,34 @@
-body {
+body :hover {
     color: turquoise;
+}
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: orange;
 }
 * {
     text-transform: uppercase;
+}
+[href] {
+    color: black;
+}
+ol[type*="I"] {
+    color: red;
+}
+#csslink {
+    font-family: arial;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(72, 235, 247);
+    border: 3px solid black;
+    padding: 5px;
+}
+#csslink:hover {
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(197, 179, 16);
+    background-color: rgb(72, 235, 247);
+    border: 3px solid black;
+    padding: 5px;
 }
