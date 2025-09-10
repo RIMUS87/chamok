@@ -1,5 +1,13 @@
-body :hover {
+body {
+    margin: 0;
+    padding: 0;
     color: turquoise;
+    border: 5px solid darkgreen;
+    box-sizing: border-box;
+    height: 100%;
+}
+html {
+    height: 100%;
 }
 td, th {
     text-align: center;
@@ -16,19 +24,23 @@ td, th {
 ol[type*="I"] {
     color: red;
 }
-#csslink {
+#csslink:link {
     font-family: arial;
     font-weight: bold;
+    text-decoration: none;
     color:black;
     background-color: rgb(72, 235, 247);
     border: 3px solid black;
     padding: 5px;
+    margin: 5px;s
+    position: absolute;
+}
+#csslink:visited {
+    background-color: rgb(20, 236, 74);
 }
 #csslink:hover {
-    font-family: arial;
-    font-weight: bold;
-    color: rgb(197, 179, 16);
-    background-color: rgb(72, 235, 247);
-    border: 3px solid black;
-    padding: 5px;
+    background-color: rgb(197, 179, 16);
+}
+#csslink:active {
+    background-color: rgb(250, 8, 210);
 }
