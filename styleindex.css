@@ -1,6 +1,15 @@
 #border {
-    border: 1px solid;
+    border: 5px solid red;
 }
 #color {
     color: fuchsia;
+}
+
+
+
+#normal-font-weight {
+    font-weight: normal;
+}
+#bold-font-weight {
+    font-weight: bold;
 }
