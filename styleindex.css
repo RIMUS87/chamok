@@ -1,12 +1,16 @@
 #border {
     border: 5px solid red;
 }
-#color {
-    color: fuchsia;
+
+
+
+
+#red-color {
+    color: red;
 }
-
-
-
+#rgb-color {
+    color: rgb(185, 235, 71);
+}
 #normal-font-weight {
     font-weight: normal;
 }
