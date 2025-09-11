@@ -52,7 +52,7 @@ ol[type*="I"] {
     background-color: rgb(72, 235, 247);
     border: 3px solid black;
     padding: 5px;
-    margin: 5px;s
+    margin: 15px 5px;
     position: absolute;
 }
 #csstest:visited {
