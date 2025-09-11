@@ -44,3 +44,23 @@ ol[type*="I"] {
 #csslink:active {
     background-color: rgb(250, 8, 210);
 }
+#csstest:link {
+     font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    background-color: rgb(72, 235, 247);
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;s
+    position: absolute;
+}
+#csstest:visited {
+    background-color: rgb(20, 236, 74);
+}
+#csstest:hover {
+    background-color: rgb(197, 179, 16);
+}
+#csstest:active {
+    background-color: rgb(250, 8, 210);
+}
