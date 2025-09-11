@@ -2,7 +2,7 @@ body {
     color: red;
     font-family: sans-serif;
     font-size: 50px;
-    transition-duration: 5s;
+    transition-delay: 5s;
 }
 #normal-weight {
     font-weight: normal;
