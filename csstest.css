@@ -1,3 +1,25 @@
 body {
     color: red;
+    font-family: sans-serif;
+    font-size: 50px;
+    transition-duration: 5s;
+}
+#normal-weight {
+    font-weight: normal;
+}
+#bold-weight {
+    font-weight: bold;
+}
+#ten-light {
+    font-weight: 1000;
+}
+#nine-light, #eight-light, #seven-light, #six-light, #five-light, #four-light, #three-light, #two-light, #one-light {
+    font-weight: lighter;
+}
+#bolder, #bold-bolder {
+    font-weight: bolder;
+}
+body:hover {
+    color: black;
+    background-color: red;
 }
