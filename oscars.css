@@ -1,0 +1,6 @@
+html {
+    background-color: rgb(204, 204, 14);
+}
+div, section, p {
+    border: 1px solid black;
+}
