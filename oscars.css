@@ -1,6 +1,10 @@
 html {
     background-color: rgb(204, 204, 14);
+    border: 5px solid green;
 }
-div, section, p {
+body {
+    border: 5px solid red;
+}
+div, section, p, nav, header, main, footer, address, article {
     border: 1px solid black;
 }
