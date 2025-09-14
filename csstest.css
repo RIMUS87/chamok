@@ -1,6 +1,6 @@
 body {
     color: red;
-    font-family: sans-serif;
+    font-family: "Chamok";
     font-size: 50px;
     transition: 4s ease-in-out 2s;
 }
@@ -23,3 +23,6 @@ body:hover {
     color: black;
     background-color: red;
 }
+@font-face {
+    font-family: "Chamok";
+    src: url(files/chamok-font.otf) format(woff);

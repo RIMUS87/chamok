@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Chamok";
+    src: url(files/chamok-font.otf) format(woff);
+}
+html {
+    border: 5px solid black;
+    background-color: rgba(179, 209, 9, 0.932);
+}
+body, header, nav, main, div, footer, address, article, li, ol, p, section {
+    border: 1px solid black;
+    background-color: white;
+    font-family: "Chamok";
+}

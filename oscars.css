@@ -1,6 +1,7 @@
 html {
     background-color: rgb(204, 204, 14);
     border: 5px solid green;
+    font-family: "Chamok";
 }
 body {
     border: 5px solid red;
@@ -8,3 +9,6 @@ body {
 div, section, p, nav, header, main, footer, address, article, ol, li {
     border: 1px solid black;
 }
+@font-face {
+    font-family: "Chamok";
+    src: url(files/chamok-font.otf) format(woff);

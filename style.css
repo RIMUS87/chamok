@@ -5,6 +5,7 @@ body {
     border: 5px solid darkgreen;
     box-sizing: border-box;
     height: 100%;
+    font-family: "Chamok";
 }
 html {
     height: 100%;
@@ -78,3 +79,6 @@ ol[type*="I"] {
 .green-link:hover {
     background-color: rgb(197, 179, 16);
 }
+@font-face {
+    font-family: "Chamok";
+    src: url(files/chamok-font.otf) format(woff);
