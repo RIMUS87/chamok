@@ -5,6 +5,6 @@ html {
 body {
     border: 5px solid red;
 }
-div, section, p, nav, header, main, footer, address, article {
+div, section, p, nav, header, main, footer, address, article, ol, li {
     border: 1px solid black;
 }
