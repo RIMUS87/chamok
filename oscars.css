@@ -12,3 +12,4 @@ div, section, p, nav, header, main, footer, address, article, ol, li {
 @font-face {
     font-family: "Chamok";
     src: url(files/chamok-font.otf) format(woff);
+}
