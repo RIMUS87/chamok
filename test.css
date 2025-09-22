@@ -1,33 +1,3 @@
-#border-top {
-//    padding: 20px;
-//    margin: 10px;
-    border-top: 50px;
-    border-top-color: red;
-//    border-top-width: 50px;
-    border-top-style: solid;
-//    border-top: green;
-    height: 100px;
-}
-// div {
-    border-left: 50px solid black;
-    border-right: 50px solid blue;
-    border-bottom: 50px solid green;
-    margin: 50px;
-}
-// html {
-    border: 5px solid purple;
-    height: 100vh;
-//    box-sizing: border-box;
-}
-#sizing {
-    border: 700px solid hotpink;
-//    height: 10px;
-    box-sizing: content-box;
-    background-color: red;
-}
 body {
-    border: 5px solid purple;
-    margin: 0px;
-    width: fit-content;
-    height: fit-content;
+    border: 1px solid black;
 }
