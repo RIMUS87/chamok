@@ -1,5 +1,26 @@
+html {
+    height: 100%;
+    padding: 0in;
+    margin: 0in;
+}
 body {
     background-color:rgb(128, 127, 127);
+    min-height: 100%;
+    padding: 0in;
+    margin: 0in;
+}
+a {
+    background-color: white;
+    color: black;
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    text-decoration: none;
+}
+h5 {
+    background-color: white;
+    color: black;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 table {
     border: 7px solid rgb(0, 0, 0);
@@ -10,6 +31,7 @@ table {
     margin-top: 0.5in;
     position: relative;
     left: 20%;
+    bottom: 23.5in;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 tr {
@@ -31,7 +53,41 @@ td {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.left-sidebar {
+    border-right: 7px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 0in;
+    left: 0in;
+    z-index: 1;
+    width: 2in;
+    height: 100%;
+    background-color: rgb(240, 191, 33);
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.right-sidebar {
+    border-left: 7px solid rgb(0, 0, 0);
+    position: sticky;
+    top: 0in;
+    left: 100%;
+    z-index: 1;
+    width: 2in;
+    min-height: 100%;
+    background-color: rgb(240, 191, 33);
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.sidebar {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: white;
+    font-size: 200%;
+}
 .winner {
     background-color: rgb(228, 195, 105);
-//    font-weight: bold;
 }

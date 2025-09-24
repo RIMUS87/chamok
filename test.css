@@ -1,37 +1,4 @@
 body {
-    background-color:rgb(128, 127, 127);
-}
-table {
-    border: 7px solid rgb(0, 0, 0);
-    background-color: rgb(128, 127, 127);
-    text-align: center;
-    table-layout: fixed;
-    width: 60%;
-    margin-top: 0.5in;
-    position: relative;
-    left: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-tr {
-    height: 0.6in;
-}
-th {
-    border: 1px solid black;
-    background-color: rgb(240, 191, 33);
-    font-size: 200%;
-    letter-spacing: 0.1em;
-    word-spacing: 0.25em;
-    font-weight: bold;
-}
-td {
-    border: 1px solid black;
-    background-color: white;
-    font-size: 130%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.winner {
-    background-color: rgb(228, 195, 105);
-//    font-weight: bold;
+    font-size: 150%;
+    background-color: blueviolet;
 }
