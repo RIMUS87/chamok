@@ -91,3 +91,6 @@ td {
 .winner {
     background-color: rgb(228, 195, 105);
 }
+#too-long {
+    font-size: 110%;
+}
