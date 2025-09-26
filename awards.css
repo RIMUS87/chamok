@@ -79,6 +79,10 @@ a:hover {
 .winner {
     background-color: rgb(228, 195, 105);
 }
+.year {
+    border: none;
+    font-size: 120%;
+}
 #except {
     border: none;
 }
