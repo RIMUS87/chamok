@@ -55,7 +55,6 @@ a {
     text-decoration: none;
 }
 a:hover {
-//    color: red;
     text-decoration: underline;
     font-style: italic;
 }
