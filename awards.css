@@ -88,6 +88,19 @@ a:hover {
     border: none;
     font-size: 120%;
 }
+.short-table {
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    word-spacing: initial;
+    letter-spacing: initial;
+    table-layout: auto;
+}
 #except {
     border: none;
 }
+
+/*
+* add main around tables in years
+* editing short-table class
+*/
