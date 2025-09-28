@@ -88,13 +88,28 @@ a:hover {
     border: none;
     font-size: 120%;
 }
+.short-section {
+    display: flex;
+    width: 80%;
+}
 .short-table {
-    font-size: 10px;
-    width: auto;
-    height: auto;
+    font-size: 15px;
+//    width: auto;
+   height: 90vh;
     word-spacing: initial;
     letter-spacing: initial;
     table-layout: auto;
+}
+.short-row {
+   height: 5px;
+}
+.short-head {
+    font-size: 150%;
+    padding: 0;
+    margin: 0;
+    word-spacing: inherit;
+    letter-spacing: inherit;
+    line-height: 1.2em;
 }
 #except {
     border: none;
