@@ -10,8 +10,8 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    min-height: 1in;
-    height: 15vh;
+    min-height: fit-content;
+    height: 17vh;
 }
 nav {
     border: 2px solid rgb(82, 56, 33);
@@ -37,7 +37,7 @@ table {
     background-color: rgb(128, 127, 127);
     text-align: center;
     table-layout: fixed;
-    width: 95%;
+    width: 98%;
     margin: 3vh 1%;
     border-radius: 10px;
     justify-self: center;
@@ -48,7 +48,7 @@ tr {
 }
 th {
     border: 1px solid black;
-    background-color: rgb(240, 191, 33);
+    background-color: rgb(228, 178, 15);
     font-size: 200%;
     letter-spacing: 0.1em;
     word-spacing: 0.25em;
@@ -61,6 +61,14 @@ td {
     font-size: 140%;
     overflow-wrap: break-word;
     text-wrap: wrap;
+}
+.winner {
+    background-color: rgb(228, 195, 105);
+}
+#main-links {
+    grid-column: span 3;
+    height: fit-content;
+    font-size: 150%;
 }
 #girder-top {
     height: 1em;
