@@ -52,6 +52,7 @@ th {
     letter-spacing: 0.1em;
     word-spacing: 0.25em;
     font-weight: bold;
+    overflow-wrap: break-word;
     text-wrap: wrap;
 }
 td {
