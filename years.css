@@ -8,9 +8,10 @@ header {
     border: 5px solid rgb(82, 56, 33);
     background-color: rgba(170, 130, 0, 0.788);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+//    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     min-height: fit-content;
+    height: 11in;
 }
 nav {
     border: 2px solid rgb(82, 56, 33);
@@ -19,13 +20,16 @@ nav {
     height: inherit;
     flex-direction: column;
     flex-wrap: wrap;
+    width: fit-content;
+    align-items: center;
 }
 a {
-    background-color: rgba(255, 255, 255, 0.596);
+//    background-color: rgba(255, 255, 255, 0.596);
     color: black;
     text-decoration: none;
     margin: 1px 2px;
     font-weight: bold;
+    width: fit-content
 }
 a:hover {
     text-decoration: underline;
