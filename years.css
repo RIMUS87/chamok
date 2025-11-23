@@ -66,6 +66,9 @@ td {
     overflow-wrap: break-word;
     text-wrap: wrap;
 }
+img {
+    height: 3in;
+}
 .winner {
     background-color: rgb(228, 195, 105);
 }
