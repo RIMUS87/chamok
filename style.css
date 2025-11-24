@@ -5,7 +5,6 @@ body {
     border: 5px solid darkgreen;
     box-sizing: border-box;
     height: 100%;
-    font-family: "Chamok";
 }
 html {
     height: 100%;
@@ -26,48 +25,7 @@ td, th {
 ol[type*="I"] {
     color: red;
 }
-#csslink:link {
-    font-family: "Chamok";
-    font-weight: bold;
-    text-decoration: none;
-    color:black;
-    background-color: rgb(72, 235, 247);
-    border: 3px solid black;
-    padding: 5px;
-    margin: 5px;s
-    position: absolute;
-}
-#csslink:visited {
-    background-color: rgb(20, 236, 74);
-}
-#csslink:hover {
-    background-color: rgb(197, 179, 16);
-}
-#csslink:active {
-    background-color: rgb(250, 8, 210);
-}
-#csstest:link {
-    font-family: "Chamok";
-    font-weight: bold;
-    text-decoration: none;
-    color:black;
-    background-color: rgb(72, 235, 247);
-    border: 3px solid black;
-    padding: 5px;
-    margin: 15px 5px;
-    position: absolute;
-}
-#csstest:visited {
-    background-color: rgb(20, 236, 74);
-}
-#csstest:hover {
-    background-color: rgb(197, 179, 16);
-}
-#csstest:active {
-    background-color: rgb(250, 8, 210);
-}
 .green-link {
-    font-family: "Chamok";
     font-weight: bold;
     text-decoration: none;
     color:black;
@@ -80,6 +38,3 @@ ol[type*="I"] {
 .green-link:hover {
     background-color: rgb(197, 179, 16);
 }
-@font-face {
-    font-family: "Chamok";
-    src: url(files/chamok-font.otf) format(woff);
