@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Nominees | </title>
+        <title>Nominees | </title><!--Name-->
         <link rel="stylesheet" href="../years.css" type="text/css">
         <link rel="icon" href="../files/trilobite.png" sizes="348x348" type="image.png">
+        <link rel="preload" href="../files/" as="image"><!--href image source-->
     </head>
     <body>
         <header id="bio">
-            <img src="../files/">
-            <p id="name"></p>
+            <img src="../files/"><!--src image source-->
+            <p id="name"></p><!--Name-->
         </header>
         <main>
             <table>
@@ -23,13 +24,12 @@
                     <th>Result</th>
                 </tr>
                 <tr>
-                    <td> Academy Awards<br>Oscars </td>
+                    <td> Academy Awards<br>Oscars </td><!--"1st" & "1929"-->
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                
             </table>
             <table>
                 <tr>
@@ -41,16 +41,17 @@
                     <th>Role</th>
                 </tr>
                 <tr>
-                    <td> Academy Awards<br>Oscars </td>
+                    <td> Academy Awards<br>Oscars </td><!--"1st" & "1929"-->
                     <td></td>
                     <td></td>
                 </tr>
             </table>
         </main>
         <nav class="links">
-            <a href="" target="_blank">Letterboxd</a>
+            <a href="" target="_blank">Letterboxd</a><!--href page link-->
             <a href="" target="_blank">IMDb</a>
             <a href="" target="_blank">Wikipedia</a>
+            <a href="../index.html">Home</a>
         </nav>
     </body>
 </html>
